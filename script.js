@@ -5,6 +5,8 @@
 //   isEmployed: false,
 // };
 
+//it uses for showing the keys and value wich object has in array format
+
 //Method entries()
 // console.log(Object.entries(obj)); //OUTPUT: -->
 
