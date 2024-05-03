@@ -14,3 +14,9 @@
 //   ["age", 14],
 //   ["isEmployed", false],
 // ];
+
+//Method keys()
+
+//it uses for showing the keys wich object has in array format
+
+// console.log(Object.keys(obj)); //OUTPUT: --> [ 'Firstname', 'Lastname', 'age', 'isEmployed' ]
