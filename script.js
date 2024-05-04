@@ -38,6 +38,7 @@
 //   age: 30,
 //   Job: "Programmer",
 // };
+
 // let person2 = {
 //   FirstName: "Yosin",
 //   LastName: "Fozilov",
@@ -48,3 +49,16 @@
 // console.log(Job);
 // console.log(FirstName);
 // console.log(LastName);
+
+//function type
+
+function object(obj1, obj2) {
+  let { FirstName, LastName, Job = "Workless", age } = obj1;
+  return age;
+}
+console.log(
+  object(
+    { FirstName: "John", LastName: "Doe", age: 30, Job: "Programmer" },
+    { FirstName: "Yosin", LastName: "Fozilov", age: 14 }
+  )
+);
