@@ -52,13 +52,21 @@
 
 //function type
 
-function object(obj1, obj2) {
-  let { FirstName, LastName, Job = "Workless", age } = obj1;
-  return age;
-}
-console.log(
-  object(
-    { FirstName: "John", LastName: "Doe", age: 30, Job: "Programmer" },
-    { FirstName: "Yosin", LastName: "Fozilov", age: 14 }
-  )
-);
+// function object(obj1, obj2) {
+//   let { FirstName, LastName, Job = "Workless", age } = obj1;
+//   return age;
+// }
+// console.log(
+//   object(
+//     { FirstName: "John", LastName: "Doe", age: 30, Job: "Programmer" },
+//     { FirstName: "Yosin", LastName: "Fozilov", age: 14 }
+//   )
+// );
+
+// Spread method in object
+
+// function object(obj) {
+//   let obj2 = { ...obj };
+//   return obj2;
+// }
+// console.log(object({ name: "Yosin", age: 14, job: "Programmer" }));
