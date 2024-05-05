@@ -78,3 +78,33 @@
 //   return rest;
 // };
 // console.log(object({ name: "Yosin", age: 14, job: "Programmer" }));
+
+//KEYWORD --> this
+
+//VARIABLE VERSION
+
+// let person = {
+//   name: "Yosin",
+//   age: 14,
+//   job: "Programmer",
+//   print: function () {
+//     return `My name is ${this.name}`;
+//   },
+// };
+// console.log(person.print());
+
+//FUNCTION VERSION
+
+// let object = (person) => {
+//   return person.print();
+// };
+// console.log(
+//   object({
+//     name: "Ali",
+//     age: 14,
+//     job: "Programmer",
+//     print: function () {
+//       return `My name is ${this.name}.I'm ${this.age} years old and I work as a ${this.job}`;
+//     },
+//   })
+// );
