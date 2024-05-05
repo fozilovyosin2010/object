@@ -70,3 +70,11 @@
 //   return obj2;
 // }
 // console.log(object({ name: "Yosin", age: 14, job: "Programmer" }));
+
+//REST METHOD IN OBJECT
+
+// let object = (obj) => {
+//   let { name, ...rest } = obj;
+//   return rest;
+// };
+// console.log(object({ name: "Yosin", age: 14, job: "Programmer" }));
