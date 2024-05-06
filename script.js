@@ -108,3 +108,35 @@
 //     },
 //   })
 // );
+
+//DATA AND TIME
+
+// for ways for making date objects
+
+// 1. new Date()
+
+// let time = new Date();
+// console.log(time); //output: 2024-05-06T13:47:51.183Z
+
+//it used for showing a curent time
+
+// 2. new Date(milliseconds)
+
+// let time = new Date(10); //10 is a millisecond
+// console.log(time);
+
+//it used for showing a time since january 1, 1970
+
+// 3. new Date(Date string)
+
+// let time = new Date("2024-05-06");
+// console.log(time);
+
+// it used for showing a time in a breackets wich is written require standard is ("year-month-day")
+
+//4. new Date(year,month,day,hour,minute,second,millisecond)
+
+// let time = new Date(2024, 5, 6, 11, 57, 10, 5);
+// console.log(time); //output: 2024-06-06T06:57:10.005Z
+
+// it used for showing a time in standart of (year, month, day, hour, minute, second,millisecond), empty parts equal to 0
