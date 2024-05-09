@@ -164,3 +164,33 @@
 // console.log(year); //output:2024
 
 //it returns full year of the date 4 digits
+
+//METHOD getMonth()
+
+//this will show the month as a number
+
+// let time = new Date();
+// let month = time.getMonth();
+// console.log(month); //output:4
+
+//this will show the month as a string
+
+// let d = new Date();
+// let month = [
+//   "january",
+//   "february",
+//   "march",
+//   "april",
+//   "may",
+//   "june",
+//   "july",
+//   "august",
+//   "september",
+//   "october",
+//   "november",
+//   "december",
+// ];
+// let find = d.getMonth();
+// console.log(month[find]);
+
+//getMonth() returns the month (0 to 11) of the date January = 0 ...
