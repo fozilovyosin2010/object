@@ -202,3 +202,11 @@
 // console.log(d); //output: 9
 
 //it return the day of the month (1 to 31) of the date
+
+// METHOD getHours()
+
+// let t = new Date();
+// let hour = t.getHours();
+// console.log(hour);
+
+//it ruturns the hour from(0 till 23) of the date
