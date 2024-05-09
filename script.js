@@ -194,3 +194,11 @@
 // console.log(month[find]);
 
 //getMonth() returns the month (0 to 11) of the date January = 0 ...
+
+//METHOD getDate()
+
+// let d = new Date(); //2024-05-09T05:14:28.763Z
+// let day = d.getDate();
+// console.log(d); //output: 9
+
+//it return the day of the month (1 to 31) of the date
