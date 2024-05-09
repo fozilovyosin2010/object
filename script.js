@@ -140,3 +140,14 @@
 // console.log(time); //output: 2024-06-06T06:57:10.005Z
 
 // it used for showing a time in standart of (year, month, day, hour, minute, second,millisecond), empty parts equal to 0
+
+//DATA METHODS
+
+//METHOD now()
+
+// function show(time) {
+//   return time;
+// }
+// console.log(show(Date.now())); //output: 1715230079748
+
+//it used for showing milliseconds since January 1st, 1970
