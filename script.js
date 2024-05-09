@@ -150,4 +150,9 @@
 // }
 // console.log(show(Date.now())); //output: 1715230079748
 
+// or
+
+let time = Date.now();
+console.log(time);
+
 //it used for showing milliseconds since January 1st, 1970
