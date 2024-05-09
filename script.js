@@ -152,7 +152,15 @@
 
 // or
 
-let time = Date.now();
-console.log(time);
+// let time = Date.now();
+// console.log(time);
 
 //it used for showing milliseconds since January 1st, 1970
+
+//METHOD getFullYear()
+
+// let time = new Date();
+// let year = time.getFullYear();
+// console.log(year); //output:2024
+
+//it returns full year of the date 4 digits
