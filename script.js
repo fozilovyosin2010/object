@@ -227,3 +227,29 @@
 // let word = "name";
 // obj[word] = "yosin";
 // console.log(obj);
+
+//METHOD getDay()
+
+//as a number
+
+// let time = new Date();
+// let dayOfWeek = time.getDay();
+// console.log(dayOfWeek);
+
+//as a string
+
+// let tm = new Date();
+// let weeks = [
+//   "monday",
+//   "tuesday",
+//   "wednesday",
+//   "thursday",
+//   "friday",
+//   "saturday",
+//   "sunday",
+// ];
+// let day = tm.getDay() - 1;
+
+// console.log(weeks[day]);
+
+// it used for showing the day of the week (0, 6)
