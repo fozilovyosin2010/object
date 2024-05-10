@@ -201,7 +201,7 @@
 // let day = d.getDate();
 // console.log(d); //output: 9
 
-//it return the day of the month (1 to 31) of the date
+//it return the day of the date (1 to 31)
 
 // METHOD getHours()
 
@@ -210,3 +210,20 @@
 // console.log(hour);
 
 //it ruturns the hour from(0 till 23) of the date
+
+// IF YOU WANNA ADD AN ELEMENT TO THE OBJECT
+
+// FUNCTION VERSION
+
+// function addName(obj, name) {
+//   obj[name] = 12;
+//   return obj;
+// }
+// console.log(addName({}, "yosin"));
+
+// VARIABLE VERSION
+
+// let obj = {};
+// let word = "name";
+// obj[word] = "yosin";
+// console.log(obj);
