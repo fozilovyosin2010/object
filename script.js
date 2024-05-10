@@ -253,3 +253,11 @@
 // console.log(weeks[day]);
 
 // it used for showing the day of the week (0, 6)
+
+//METHOD getMinutes()
+
+// let time = new Date();
+// let minute = time.getMinutes();
+// console.log(minute);
+
+//it used for showing the minute of the hour (0, 59)
