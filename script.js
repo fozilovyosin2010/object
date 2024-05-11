@@ -276,7 +276,7 @@
 // let day = time.setDate(12); // it will show in miliseconds since 1970, January 1st
 // console.log(day); //1715512970918
 
-// it used to set the day of the month variavle parameters are the same
+// it used to set the day of the month variable parameters are the same
 
 //METHOD setMonth()
 
@@ -284,4 +284,12 @@
 // time.setMonth(0); //2024-01-11T11:26:47.073Z
 // console.log(time);
 
-// it used to set the month of the year variavle parameters are the same
+// it used to set the month of the year variable parameters are the same
+
+//METHOD setFullYear()
+
+// let time = new Date(); //2024-05-11T16:07:48.736Z
+// time.setFullYear(2022); //2022-05-11T16:07:48.736Z
+// console.log(time);
+
+//it used to set the full year  variable parameters are the same
