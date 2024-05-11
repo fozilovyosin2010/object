@@ -252,7 +252,7 @@
 
 // console.log(weeks[day]);
 
-// it used for showing the day of the week (0, 6)
+// it used for showing the day of the week (1, 7)
 
 //METHOD getMinutes()
 
@@ -261,3 +261,17 @@
 // console.log(minute);
 
 //it used for showing the minute of the hour (0, 59)
+
+//METHOD setDate()
+
+//without adding a new variable for (.setDate())
+
+// let time = new Date(); //2024-05-11T11:19:59.238Z
+// time.setDate(12);
+// console.log(time); //2024-05-12T11:20:39.866Z
+
+//with adding a new variable for (.setDate())
+
+// let time = new Date(); //2024-05-11T11:19:59.238Z
+// let day = time.setDate(12); // it will show in miliseconds since 1970, January 1st
+// console.log(day); //1715512970918
