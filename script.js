@@ -292,4 +292,8 @@
 // time.setFullYear(2022); //2022-05-11T16:07:48.736Z
 // console.log(time);
 
-//it used to set the full year  variable parameters are the same
+// let time = new Date();
+// time.setFullYear(time.getFullYear(), time.getMonth() - 2, time.getDate() + 2);
+// console.log(time.toString());
+
+//it used to set the full year, month and day variable parameters are the same
